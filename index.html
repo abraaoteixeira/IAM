@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IAM - Inteligência Artificial de Monitoramento!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<header>
+    <label class="menu" for="burger">
+      <input id="burger" type="checkbox"/>
+      <svg class="burger" viewBox="0 0 100 100" width="64">
+        <path class="line top" d="m 30,33 h 40 c 13.100415,0 14.380204,31.80258 6.899646,33.421777 -24.612039,5.327373 9.016154,-52.337577 -12.75751,-30.563913 l -28.284272,28.284272"></path>
+        <path class="line middle" d="m 70,50 c 0,0 -32.213436,0 -40,0 -7.786564,0 -6.428571,-4.640244 -6.428571,-8.571429 0,-5.895471 6.073743,-11.783399 12.286435,-5.570707 6.212692,6.212692 28.284272,28.284272 28.284272,28.284272"></path>
+        <path class="line bottom" d="m 69.575405,67.073826 h -40 c -13.100415,0 -14.380204,-31.80258 -6.899646,-33.421777 24.612039,-5.327373 -9.016154,52.337577 12.75751,30.563913 l 28.284272,-28.284272"></path>
+      </svg>
+    </label>
+    <nav>
+      <ul>
+        <li><a href="#masthead" title="masthead" style="--an:--masthead;--at:--masthead-s;">IAM</a></li>
+        <li><a href="#text" title="text" style="--an:--text;--at:--text-s;">Sobre</a></li>
+        <li><a href="#two-columns" title="two-columns" style="--an:--two-columns;--at:--two-columns-s;">Resultados</a></li>
+        <li><a href="#subscribe" title="subscribe" style="--an:--subscribe;--at:--subscribe-s;">Acompanhe</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="masthead" style="--name:--masthead-s;">
+      <div class="flying-squares">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+      </div>
+      <div class="masthead">
+        <h1>Inteligência Artificial Monitoramento</h1>
+        <p>Na Prevenção e no Combate à
+            violência escolar !</p>
+      </div>
+    </section>
+    <section id="tiles" style="--name:--tiles-s;">
+      <div class="tile-section">
+        <div class="tile-container">
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+        </div>
+      </div>
+    </section>
+    <section id="text" style="--name:--text-s;">
+      <div class="read">
+        <div>Progresso</div>
+
+      </div>
+      <div class="text">
+        
+        <h2>Sobre: Projeto IAM - Inteligência Artificial de Monitoramento</h2>
+
+        <p>
+          O Projeto IAM (Inteligência Artificial de Monitoramento) é uma iniciativa de pesquisa do IFC Câmpus Brusque, dedicada à criação de um sistema automatizado e sem custos para a Detecção de Armas em ambientes escolares. Concebido em meio aos crescentes desafios de violência, incluindo ameaças constantes, invasões por criminosos e massacres, presenciado no Brasil e em nossa região, o projeto é meticulosamente elaborado com o propósito de mitigar essas ocorrências.
+          Buscamos uma abordagem holística e refinada para eliminar as possibilidades de eventos prejudiciais, abrangendo diversas variantes de ameaças, como:
+        </p>
+        
+        <ul>
+          <li>Armas de fogo;</li>
+          <li>Armas brancas;</li>
+          <li>Comportamentos suspeitos;</li>
+          <li>Situações de emergência.</li>
+        </ul>
+        
+        <p>
+          Além disso, o sistema IAM é projetado para adaptar-se a diferentes ambientes escolares, incluindo:
+        </p>
+        
+        <ul>
+          <li>Ambientes apenas com câmeras de vigilância;</li>
+          <li>Ambientes com sistemas de segurança integrados;</li>
+          <li>Ambientes com restrições orçamentárias;</li>
+          <li>Ambientes de diferentes tamanhos e layouts;</li>
+          <li>Ambientes com condições de iluminação variadas.</li>
+        </ul>
+        
+        
+        <p>
+          Mesmo que o projeto ainda não tenha sido totalmente implementado no IFC Câmpus Brusque, nossas descobertas e avanços na pesquisa estabelecem uma base sólida para futuras iniciativas. Estamos comprometidos em aprimorar estratégias e divulgá-las para tornar as escolas mais seguras, reconhecendo a importância da segurança no ambiente educacional e buscando integrar efetivamente a tecnologia para atender às necessidades específicas do IFC Câmpus Brusque e outras instituições.
+        </p>
+        
+        <p>
+          Como é feito desenvolvimento do projeto?
+        </p>
+
+        <p>
+          O Projeto IAM baseia-se na arquitetura do YOLO (You Only Look Once), um modelo avançado de rede neural convolucional amplamente reconhecido por sua eficácia na detecção de objetos em tempo real, criado por Joseph Redmon. Para o treinamento do modelo, o conjunto de dados é meticulosamente enumerado e preenchido com posições e categorias de armas, obtidos legalmente por meio da plataforma Roboflow, especializada no preparo e análise de conjuntos de dados.
+
+          Quanto ao treinamento, o projeto faz uso de um Ambiente Virtual no Google Colab, proporcionando acesso a recursos especializados para treinamento, incluindo aceleração por GPUs. Destaca-se a disponibilidade da unidade virtual da placa de vídeo Nvidia T4 16GB, otimizando significativamente o processo de treinamento e reforçando o compromisso do Projeto IAM em oferecer uma solução de detecção acessível, eficiente e tecnicamente robusta, sem gastos.
+        </p>
+
+        <a href="" target="_blank">Quer mais detalhes? <strong>O artigo clicando aqui!</strong></a>
+          </div>
+    </section>
+    <section id="two-columns" style="--name:--two-columns-s;">
+      <div class="two-columns">
+        <h2>Resultados: </h2>
+        <div class="content">
+          <div class="cards">
+            <div class="card">
+              <h3 class="title">Precisão</h3>
+              <div class="subtitle">Confiança na Detecção</div>
+              <p>O Projeto IAM, utilizando a arquitetura YOLO, demonstrou uma notável precisão de 94% na detecção de padrões de imagem, porém são detecções em ambiente real. Essa alta acurácia é fundamental para a identificação confiável de armas de fogo e brancas em ambientes escolares, contribuindo significativamente para a eficácia do sistema de monitoramento.</p>
+            </div>
+            <div class="card">
+              <h3 class="title">Aplicação</h3>
+              <div class="subtitle">Adaptabilidade e Versatilidade em Ambientes Escolares</div>
+              <p>A aplicação prática do modelo IAM revela-se versátil e adaptável a diversos cenários escolares. Desde ambientes com apenas câmeras de vigilância até aqueles com sistemas de segurança integrados, o sistema IAM é projetado para se adequar às diferentes realidades, promovendo um ambiente educacional mais seguro.</p>            </div>
+            <div class="card">
+              <h3 class="title">Baixo Custo</h3>
+              <div class="subtitle">Acessível e Viavel</div>
+              <p>Um dos diferenciais do Projeto IAM é sua abordagem de baixo custo. Utilizando recursos disponíveis no ambiente virtual do Google Colab, o treinamento do modelo se beneficia da aceleração por GPUs, como a Nvidia T4 16GB, sem incorrer em custos adicionais. Essa abordagem viabiliza a implementação em escolas com restrições orçamentárias, ampliando o alcance e a acessibilidade da solução.</p>
+            </div>
+          </div>
+          <div class="preview">
+            <div class="img"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="subscribe" style="--name:--subscribe-s;">
+      <div class="subscribe">
+        <h2>Acompanhe !</h2>
+        <p>Junte-se a nós nesse esforço contínuo para tornar as escolas e lugares  ainda mais seguros e protegidos!</p>
+        <form action="" method="POST">
+          <input type="email" placeholder="Enter your email"/>
+          <button class="btn" type="submit"><span>Subscribe</span></button>
+        </form>
+      </div>
+    </section>
+    <div class="scroll"><span>Vá para Cima</span>
+      <div class="divider"></div><span>Vá para Baixo</span>
+    </div>
+  </main>
+  <footer>
+    <div class="logo-container">
+        <a href="https://www.mec.gov.br/" target="_blank">
+            <img src="https://educacaoepedagogia.wordpress.com/files/2009/06/logo_mec_brasil.jpg" alt="MEC Logo">
+        </a>
+        <a href="https://www.brusque.ifc.edu.br/" target="_blank">
+            <img src="https://cecom.ifc.edu.br/wp-content/uploads/sites/10/2022/10/Logo_IFC_extendida_Brusque.png" alt="MEC Logo">
+        </a>
+    </div>
+  </footer>
+</body>
+</html>
